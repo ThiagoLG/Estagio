@@ -39,4 +39,9 @@ public class EmpresaDAO {
 		}
 		return codigoRetorno;
 	}
+
+	public Empresa consultaEmpresa(String cnpj) {
+		Empresa empresa = new Empresa();
+		return empresa;
+	}
 }
